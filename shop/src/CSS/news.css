@@ -1,0 +1,22 @@
+.news__title-new{
+    max-width: 400px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #151528;
+    margin-bottom: 15px;
+}
+.news__author-new{
+    max-width: 400px;
+}
+.news-page__full{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.news__date-new{
+    color: #808080;
+    margin-top: 10px;
+}

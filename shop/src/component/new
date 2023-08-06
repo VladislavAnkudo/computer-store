@@ -1,0 +1,41 @@
+import "../CSS/news.css";
+import React, { useState, useEffect } from "react";
+
+function News() {
+  const [data, setData] = useState([]);
+  const [loading, setloading] = useState(true);
+  useEffect(() => {
+    fetch(
+      "https://newsapi.org/v2/top-headlines?country=ru&category=technology&apiKey=0999686e78904ad6a3e0859281513c54"
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        setData(data.articles);
+        setloading(false);
+      })
+      .catch((error) => {
+        console.error(error);
+        setloading(false);
+      });
+  }, []);
+
+
+  return (
+    <div className="wrapper">
+        <div className="news__page">
+            <div className="news-page__full">
+                {
+                loading ? <h1>Loading....</h1> : 
+                  data.slice(0, 9).map(item => (
+                  <div key={item.publishedAt}>
+                    <div className="news__title-new">{item.title}</div>
+                    <div className="news__author-new">Автор публикации: {item.author}</div>
+                    <div className="news__date-new">{item.publishedAt}</div>
+                  </div>
+                ))}
+          </div>
+        </div>
+    </div>
+  )
+}
+export { News };

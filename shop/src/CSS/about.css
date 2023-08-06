@@ -1,0 +1,105 @@
+.about__title{
+    max-width: 1080px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 90px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.about__title-blue{
+    color: #015ADE;
+}
+.about__images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.about__images-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.whychooseus__title, .littletext__title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #015ADE;
+    margin-bottom: 45px;
+}
+.whychooseus__list{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+}
+.whychooseus__item{
+    list-style: none;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2em;    
+    color: #000000;
+    display: flex;
+    gap: 25px;
+}
+.whychooseus__item:nth-of-type(1)::before, .whychooseus__item:nth-of-type(2)::before,
+.whychooseus__item:nth-of-type(3)::before,.whychooseus__item:nth-of-type(4)::before,
+.whychooseus__item:nth-of-type(5)::before{
+    display: block;
+    content: "";
+    background-image: url(../assets/icons/whychooseus__delivery.svg);
+    background-repeat: no-repeat;
+    width: 42.86px;
+    height: 30px;
+    margin-bottom: 25px;
+}
+.whychooseus__item:nth-of-type(2)::before{
+    background-image: url(../assets/icons/whychooseus__hq.svg);
+}
+.whychooseus__item:nth-of-type(3)::before{
+    background-image: url(../assets/icons/whychooseus__fire.svg);
+}
+.whychooseus__item:nth-of-type(4)::before{
+    background-image: url(../assets/icons/whychooseus__tablet.svg);
+    height: 34px;
+}
+.whychooseus__item:nth-of-type(5)::before{
+    background-image: url(../assets/icons/whychooseus__adress.svg);
+    height: 34px;
+}
+.littletext__subtitle, .littletext__description{
+    font-size: 26px;
+    line-height: 39px;
+}
+.littletext__description{
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.our__works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.our__one-works{
+    display: flex;
+    flex-direction: column;
+}
+.our__one-works-titleandwork{
+    text-align: center;
+    background: #F3F7F8;
+}
+.our__one-work__title{
+    font-size: 14px;
+    line-height: 17px;
+    margin: 35px 0 5px;
+}
+.our__one-work__work{
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 34px;
+}
+
+  

@@ -1,0 +1,217 @@
+.main__wrapper{
+    background: url(../assets/images/background__main.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+.main__full-desc{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 37px;
+    padding-left: 80px;
+}
+.main__title{
+    
+    max-width: 814px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+}
+.main__subtitle{
+    max-width: 447px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.main__description{
+    max-width: 389px;
+    font-weight: 400;
+}
+.whychoose__head{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #015ADE;
+    margin-top: 100px;
+}
+.whychoose__title{
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    color: #1D1D54;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+.whychoose__subtitle{
+    max-width: 1186.68px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    color: #151528;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.whychoose__desc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.desc__card{
+    text-align: center;
+}
+.desc__title{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #151528;
+}
+.reviews__switch{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.review__add{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.reviews__title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #015ADE;
+}
+.reviews__arrows{
+    display: flex;
+}
+.reviews__arrows-right:hover, .reviews__arrows-left:hover{
+    background-color: #e7e6e6;
+    cursor: pointer;
+}
+.reviews__arrows-right, .reviews__arrows-left{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #FAFAFA;
+    border: 1px solid #BBBBBB;
+    background-image: url(../assets/icons/arrow__right.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.reviews__arrows-left{
+    background-image: url(../assets/icons/arrow__left.svg);
+}
+.home__page-reviews-cover{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 45px;
+}
+.home__page-reviews{
+    background: #FFFFFF;
+    border: 1px solid #ADACAC;
+    border-radius: 12px;
+    height: 198px;
+    width: 300px;
+}
+.home__page-reviews-name{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #A9A9A9;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.home__page-reviews__cover-img{
+    position: absolute;
+    width: 58px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    left: 0;
+    right: 0;
+    top: -24px;
+}
+.home__page-reviews-cover-full{
+    position: relative;
+}
+.home__page-reviews-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.home__page-reviews-description{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;    
+    color: #151515;
+    word-wrap: break-word;
+    margin: 0 10px;
+}
+.news__title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #015ADE;
+    margin-top: 100px;
+    margin-bottom: 45px;
+}
+.news__title-new{
+    max-width: 400px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #151528;
+    margin-bottom: 15px;
+}
+.news__author-new{
+    max-width: 400px;
+}
+.news__full{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.news__date-new{
+    color: #808080;
+    margin-top: 10px;
+}
+.partner__full{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+.homepage__devices  .devicelist{
+    max-width: 300%;
+    width: 2500px;
+    position: relative;
+    flex-wrap: nowrap;
+    column-gap: 0;
+    row-gap: 0;
+    justify-content: space-between;
+}
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden; 
+}
+
+.slider .devicelist {
+    transition: transform 0.3s ease-in-out;
+}
+.diveces__line{
+    margin-bottom: 45px;
+}
